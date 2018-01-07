@@ -1,0 +1,96 @@
+/*
+Theme Name: A Year in Pixels with CSS Grid
+Author: Melody
+Author URI: https://github.com/melodyplan
+Version: 1.0
+*/
+
+body {
+  font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text',
+    'Times New Roman', serif;
+  font-size: 16px;
+  color: #333;
+}
+
+a:link,
+a:visited {
+  color: #006ec3;
+}
+
+p {
+  line-height: 1.65 em;
+}
+
+/* General Layout */
+div.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 225px 225px 225px 225px;
+  grid-template-areas:
+    'header header header header'
+    'content content content sidebar'
+    'footer footer footer footer';
+  max-width: 920px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.site-header {
+  grid-area: header;
+}
+
+.content {
+  grid-area: content;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.site-footer {
+  grid-area: footer;
+}
+
+article.post {
+  border-bottom: 2px dotted #bbbbbb;
+}
+
+article.post:last-of-type {
+  border-bottom: none;
+}
+
+/* Header */
+.site-header {
+  border-bottom: 2px solid #999;
+}
+
+/* Pixelated Year */
+.content {
+  display: grid;
+  grid-template-rows: repeat(31, 1fr);
+  background-color: #f7f7f7;
+}
+
+.months {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: #f7f7f7;
+}
+
+/*
+.days {
+  display: grid;
+  grid-template-rows: repeat(31, 1fr);
+  background-color: #f7f7f7;
+}*/
+
+.content div {
+  border: 1px solid #999;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 30px;
+  border-top: 2px solid #999;
+}
