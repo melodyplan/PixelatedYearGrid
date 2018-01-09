@@ -66,27 +66,35 @@ article.post:last-of-type {
 }
 
 /* Pixelated Year */
-.content {
-  display: grid;
-  grid-template-rows: repeat(31, 1fr);
-  background-color: #f7f7f7;
-}
-
-.months {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  background-color: #f7f7f7;
-}
-
-/*
-.days {
+/*.content {
   display: grid;
   grid-template-rows: repeat(31, 1fr);
   background-color: #f7f7f7;
 }*/
 
-.content div {
+.months {
+  display: grid;
+  /*grid-gap: 8px;*/
+  grid-template-columns: repeat(13, 1fr);
+  background-color: #f7f7f7;
+}
+
+.month {
+  display: grid;
+  background-color: white;
+  grid-template-rows: repeat(31, [col-start] minmax(10px, 1fr) [col-end]);
+}
+
+.day {
+  display: grid;
   border: 1px solid #999;
+  height: 25px;
+  background-color: #f7f7f7;
+}
+
+.empty {
+  border: none;
+  background: white;
 }
 
 /* Footer */
