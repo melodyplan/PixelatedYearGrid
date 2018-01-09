@@ -25,11 +25,11 @@ p {
 div.container {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 225px 225px 225px 225px;
+  grid-template-columns: 180px 180px 180px 180px 180px;
   grid-template-areas:
-    'header header header header'
-    'content content content sidebar'
-    'footer footer footer footer';
+    'header header header header header'
+    'content content content sidebar sidebar'
+    'footer footer footer footer footer';
   max-width: 920px;
   margin: 0 auto;
   padding-left: 20px;
@@ -72,15 +72,21 @@ article.post:last-of-type {
   background-color: #f7f7f7;
 }*/
 
+.content {
+  align-content: center;
+}
+
 .months {
   display: grid;
   /*grid-gap: 8px;*/
-  grid-template-columns: repeat(13, 1fr);
+  grid-template-columns: repeat(13, 25px);
+  align-items: start;
   background-color: #f7f7f7;
 }
 
 .month {
   display: grid;
+  align-items: center;
   background-color: white;
   grid-template-rows: repeat(31, [col-start] minmax(10px, 1fr) [col-end]);
 }
@@ -88,11 +94,13 @@ article.post:last-of-type {
 .day {
   display: grid;
   border: 1px solid #999;
-  height: 25px;
+  min-height: 25px;
+  width: 25px;
   background-color: #f7f7f7;
 }
 
 .empty {
+  text-align: center;
   border: none;
   background: white;
 }

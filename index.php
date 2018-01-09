@@ -448,7 +448,7 @@ get_header(); ?>
       </div>
     </div>
   </div>
-  <div class="sidebar">2</div>
+  <div class="sidebar">This is the side bar.</div>
 
 <?php get_footer();
 
