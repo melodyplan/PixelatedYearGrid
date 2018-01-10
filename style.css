@@ -80,8 +80,8 @@ article.post:last-of-type {
   display: grid;
   /*grid-gap: 8px;*/
   grid-template-columns: repeat(13, 25px);
+  justify-content: center;
   align-items: start;
-  background-color: #f7f7f7;
 }
 
 .month {
@@ -97,12 +97,40 @@ article.post:last-of-type {
   min-height: 25px;
   width: 25px;
   background-color: #f7f7f7;
+  z-index: 2;
 }
 
 .empty {
   text-align: center;
   border: none;
   background: white;
+  z-index: 1;
+}
+
+/* Day Styles */
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.55, 1.55, 1.55);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
+.pulse:hover {
+  animation: pulse 1.75s infinite;
+  grid-gap: 10px;
+  background-color: #80deea;
+  z-index: 3;
 }
 
 /* Footer */
