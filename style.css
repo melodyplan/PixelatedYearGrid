@@ -14,7 +14,8 @@ body {
 
 a:link,
 a:visited {
-  color: #006ec3;
+  color: black;
+  text-decoration: none;
 }
 
 p {
@@ -24,10 +25,9 @@ p {
 /* General Layout */
 div.container {
   display: grid;
-  grid-gap: 10px;
   grid-template-columns: 180px 180px 180px 180px 180px;
   grid-template-areas:
-    'header header header header header'
+    'header header header header nav'
     'content content content sidebar sidebar'
     'footer footer footer footer footer';
   max-width: 920px;
@@ -38,6 +38,10 @@ div.container {
 
 .site-header {
   grid-area: header;
+}
+
+.site-nav {
+  grid-area: nav;
 }
 
 .content {
@@ -61,18 +65,39 @@ article.post:last-of-type {
 }
 
 /* Header */
-.site-header {
+.site-header,
+.site-nav {
   border-bottom: 2px solid #999;
 }
 
-/* Pixelated Year */
-/*.content {
+/* Navigation */
+.site-nav {
   display: grid;
-  grid-template-rows: repeat(31, 1fr);
-  background-color: #f7f7f7;
-}*/
+  align-items: flex-end;
+  justify-content: end;
+}
 
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  /*display: flex;*/
+  flex-direction: column;
+}
+
+.site-nav ul li {
+  border: 2px solid #999;
+  list-style: none;
+  display: inline;
+  padding: 0 5px 0 5px;
+}
+
+.site-nav li:hover {
+  background-color: #8c979a;
+}
+
+/* Pixelated Year */
 .content {
+  padding-top: 10px;
   align-content: center;
 }
 
@@ -129,8 +154,13 @@ article.post:last-of-type {
 .pulse:hover {
   animation: pulse 1.75s infinite;
   grid-gap: 10px;
-  background-color: #80deea;
+  background-color: #f7f7f7;
   z-index: 3;
+}
+
+/* Sidebar */
+.sidebar {
+  padding-top: 10px;
 }
 
 /* Footer */

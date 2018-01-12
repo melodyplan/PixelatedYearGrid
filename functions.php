@@ -8,4 +8,9 @@ function pixelatedYear_resources() {
 
 add_action('wp_enqueue_scripts', 'pixelatedYear_resources');
 
+// Navigation Menu
+register_nav_menus(array(
+  'journal' => __( 'Journal Menu')
+));
+
 ?>
