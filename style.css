@@ -12,9 +12,17 @@ body {
   color: #333;
 }
 
+a:link {
+  /*change this to a more aesthetically pleasing color later*/
+  color: blue;
+}
+
+a:visited {
+  color: #999;
+}
+
 a:link,
 a:visited {
-  color: black;
   text-decoration: none;
 }
 
@@ -86,13 +94,15 @@ article.post:last-of-type {
 
 .site-nav ul li {
   border: 2px solid #999;
+  color: #999;
   list-style: none;
   display: inline;
   padding: 0 5px 0 5px;
+  background-color: #f7f7f7;
 }
 
 .site-nav li:hover {
-  background-color: #8c979a;
+  background-color: #66c2ff;
 }
 
 /* Pixelated Year */
@@ -155,7 +165,27 @@ article.post:last-of-type {
   animation: pulse 1.75s infinite;
   grid-gap: 10px;
   background-color: #f7f7f7;
+  z-index: 4;
+}
+
+.day-link {
   z-index: 3;
+}
+
+/* Post Styles */
+.post h2 {
+  margin-bottom: 0;
+}
+
+p.post-info {
+  margin-top: 0;
+  font-size: 87%;
+  color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+  color: #999;
 }
 
 /* Sidebar */

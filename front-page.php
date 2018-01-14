@@ -49,6 +49,7 @@ get_header(); ?>
       </div>
       <div class="month one">
         J
+        <a class="day-link" href="<?php echo get_day_link('', '01', '01'); ?>"><div class="day pulse"></div></a>
         <div class="day pulse"></div>
         <div class="day pulse"></div>
         <div class="day pulse"></div>
@@ -60,8 +61,7 @@ get_header(); ?>
         <div class="day pulse"></div>
         <div class="day pulse"></div>
         <div class="day pulse"></div>
-        <div class="day pulse"></div>
-        <div class="day pulse"></div>
+        <a class="day-link" href="<?php echo get_day_link('', '01', '13'); ?>"><div class="day pulse"></div></a>
         <div class="day pulse"></div>
         <div class="day pulse"></div>
         <div class="day pulse"></div>
@@ -457,7 +457,14 @@ get_header(); ?>
       </div>
     </div>
   </div>
-  <div class="sidebar">This is the side bar.</div>
+  <div class="sidebar">
+    <div class="entries">
+      <h5>Most Recent Entries</h5>
+    </div>
+    <div class="featured-image">
+      <p>Test</p>
+    </div>
+  </div>
 
 <?php get_footer();
 
