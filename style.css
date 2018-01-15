@@ -132,7 +132,7 @@ article.post:last-of-type {
   min-height: 25px;
   width: 25px;
   background-color: #f7f7f7;
-  z-index: 2;
+  z-index: 4;
 }
 
 .empty {
@@ -169,7 +169,7 @@ article.post:last-of-type {
 }
 
 .day-link {
-  z-index: 3;
+  z-index: 2;
 }
 
 /* Post Styles */

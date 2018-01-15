@@ -49,6 +49,7 @@ get_header(); ?>
         echo '<p>No content found</p>';
 
       endif;
+      
     ?>
 
     <!-- <?php
