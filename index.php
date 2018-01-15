@@ -46,7 +46,7 @@ get_header(); ?>
       echo paginate_links();
 
       else :
-        echo '<p>No content found</p>';
+        echo '<p>No content found for that date (likely because it did not pass yet)</p>';
 
       endif;
       
