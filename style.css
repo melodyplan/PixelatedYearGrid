@@ -126,12 +126,16 @@ article.post:last-of-type {
   grid-template-rows: repeat(31, [col-start] minmax(10px, 1fr) [col-end]);
 }
 
+.zero {
+  align-items: stretch;
+}
+
 .day {
   display: grid;
   border: 1px solid #999;
   min-height: 25px;
   width: 25px;
-  background-color: #f7f7f7;
+  /*background-color: #f7f7f7;*/
   /*z-index: 4;*/
 }
 
