@@ -545,3 +545,38 @@ css stuff:
   width: 30%;
   float: right;
 }
+
+<div class="month one">
+  J
+  <a class="day-link" href="<?php echo get_day_link('', '01', '01'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 01); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '02'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 02); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '03'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 03); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '04'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 04); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '05'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 05); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '06'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 06); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '07'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 07); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '08'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 08); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '09'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 09); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '10'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 10); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '11'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 11); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '12'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 12); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '13'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 13); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '14'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 14); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '15'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 15); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '16'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 16); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '17'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 17); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '18'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 18); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '19'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 19); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '20'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 20); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '21'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 21); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '22'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 22); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '23'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 23); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '24'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 24); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '25'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 25); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '26'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 26); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '27'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 27); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '28'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 28); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '29'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 29); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '30'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 30); ?>"></div></a>
+  <a class="day-link" href="<?php echo get_day_link('', '01', '31'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 31); ?>"></div></a>
+</div>
