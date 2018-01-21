@@ -141,7 +141,7 @@ article.post:last-of-type {
 
 .empty {
   text-align: center;
-  border: none;
+  border-color: white;
   background: white;
   /*z-index: 1;*/
 }
@@ -180,10 +180,6 @@ article.post:last-of-type {
   z-index: 4;
 }
 
-/*.day-link {
-  z-index: 2;
-}*/
-
 /* Post Styles */
 .post h2 {
   margin-bottom: 0;
@@ -203,6 +199,20 @@ p.post-info a:visited {
 /* Sidebar */
 .sidebar {
   padding-top: 10px;
+}
+
+/* Year Key */
+.pixel-key {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 25px;
+  margin-top: 27px;
+  border-color: white;
+}
+
+.icon {
+  width: 27px;
+  grid-column-start: 2;
 }
 
 /* Footer */

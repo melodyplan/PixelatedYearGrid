@@ -70,7 +70,7 @@ get_header(); ?>
         <a class="day-link" href="<?php echo get_day_link('', '01', '17'); ?>"><div class="day pulse"></div></a>
         <a class="day-link" href="<?php echo get_day_link('', '01', '18'); ?>"><div class="day pulse"></div></a>
         <a class="day-link" href="<?php echo get_day_link('', '01', '19'); ?>"><div class="day pulse"></div></a>
-        <a class="day-link" href="<?php echo get_day_link('', '01', '20'); ?>"><div class="day pulse"></div></a>
+        <a class="day-link" href="<?php echo get_day_link('', '01', '20'); ?>"><div class="day pulse" style="background-color:<?php getColor(01, 20); ?>"></div></a>
         <a class="day-link" href="<?php echo get_day_link('', '01', '21'); ?>"><div class="day pulse"></div></a>
         <a class="day-link" href="<?php echo get_day_link('', '01', '22'); ?>"><div class="day pulse"></div></a>
         <a class="day-link" href="<?php echo get_day_link('', '01', '23'); ?>"><div class="day pulse"></div></a>
@@ -460,11 +460,14 @@ get_header(); ?>
     </div>
   </div>
   <div class="sidebar">
-    <div class="entries">
-      <h5>Most Recent Entries</h5>
+    <div class="pixel-key">
+      <div class="day pulse" style="background-color: #dd3333"></div><?php echo file_get_contents( get_template_directory() . "/icons/005-happy.svg"); ?>
+      <div class="day pulse" style="background-color: #dd9933"></div><?php echo file_get_contents( get_template_directory() . "/icons/004-happy-1.svg"); ?>
+      <div class="day pulse" style="background-color: #eeee22"></div><?php echo file_get_contents( get_template_directory() . "/icons/003-emoticon.svg"); ?>
+      <div class="day pulse" style="background-color: #81d742"></div><?php echo file_get_contents( get_template_directory() . "/icons/002-sad.svg"); ?>
+      <div class="day pulse" style="background-color: #1e73be"></div><?php echo file_get_contents( get_template_directory() . "/icons/001-sad-1.svg"); ?>
     </div>
     <div class="featured-image">
-      <p>Test</p>
     </div>
   </div>
 
