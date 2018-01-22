@@ -53,7 +53,11 @@ get_header(); ?>
     ?>
 
   </div>
-  <div class="sidebar">[Search by date]</div>
+  <div class="sidebar">
+    <div class="search">
+      <?php get_search_form(); ?>
+    </div>
+  </div>
 
 <?php get_footer();
 
