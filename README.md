@@ -20,14 +20,14 @@ I was inspired to take this physical journal with me and transpose a template pa
 
 ## How to Use
 
-![screenshot of theme landing page](https://imgur.com/20ZJm0a)
+![screenshot of theme landing page](https://imgur.com/20ZJm0a.png)
 
 1. The nav is simple: "Home" takes you to the landing page seen here.
 2. The grid is a calendar, the letters along the x-axis are the months in the year, the numbers are minimalist and count by 5s to placemark the day of the month.
 3. The colors are chosen by the user corresponding with the moods in the key. On hover, the squares bounce so users can easily see what day they are choosing and it also functions as a more aesthetic appeal.
 4. Click on any day on the calendar to go directly to the entry posted that day and see why your mood was the way it was.
 
-![screenshot of journal page](https://imgur.com/DQbi3EE)
+![screenshot of journal page](https://i.imgur.com/DQbi3EE.png)
 
 5. Clicking on "Journal" goes to all the journal entries posted so far, most recent entry on top.
 6. There is a search bar to browse by category or keyword.
